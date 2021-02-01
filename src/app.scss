@@ -1,0 +1,84 @@
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+.fa,
+.far {
+  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
+  font-weight: 400;
+}
+
+.fas {
+  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
+  font-weight: 900;
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Free', 'fa-brands-400';
+  font-weight: 400;
+}
+
+.btn_news{
+  border-width: 0.1;
+  background-color: yellow;
+  border-color: yellow;
+}
+
+.add-button {
+  height: 40;
+  background-color: yellow;
+  color: black;
+  border-radius: 5;
+  font-size: 14;
+  font-weight: 600;
+}
+
+.add-button2 {
+  height: 40;
+  background-color: white;
+  color: orange;
+  font-size: 14;
+  font-weight: 600;
+  border-color: black;
+  border-width: 0.1;
+}
+
+.card {
+  background-color: #fff;
+  color: #4d4d4d;
+  margin: 15;
+}
+
+.card-layout {
+  padding: 20;
+}
+// carousel
+#slide1 {
+  background: linear-gradient(45deg, #f06f7e, #f34a30);
+  vertical-align: center;
+}
+
+#slide2 {
+  background: linear-gradient(-45deg, #1d976c, #93f9b9);
+  vertical-align: center;
+}
+
+#slide3 {
+  background: linear-gradient(45deg, #1d2b64, #f8cdda);
+  vertical-align: center;
+}
+
+#slide4 {
+  background: linear-gradient(tobottom, #003973, #e5e5be);
+  vertical-align: center;
+}
+
+.carousel-layout-fix {
+  padding: 0.1 0;
+  margin: -0.1 0;
+}
+
+.about-heading{
+  padding: 5 18;
+  border-color: #4d4d4d;
+  border-width: 0 0 1 0;
+  margin: 0 20 0 45
+}
